@@ -19,6 +19,14 @@ func Divide(a int, b int) (int, error) {
 	return a / b, nil
 }
 
-func Multiply(a int, b int) (int) {
+func Multiply(a int, b int) int {
 	return a * b
+}
+
+func Double(a int) int {
+	return a * a
+}
+
+func SayHi() string {
+	return "hi"
 }
